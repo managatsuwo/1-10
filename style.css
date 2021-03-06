@@ -10,28 +10,34 @@
 main {
   margin: 50px auto;
   display: flex;
+  width: 960px;
 }
+
 .step-box {
   width: 300px;
-  margin-right: 30px;
+  margin: auto;
   padding: 10px;
   position: relative;
   background-color: #eee;
 }
+
 .step-img1 {
   height: 150px;
   background-image: url(img/flow01.png);
   background-size: cover;
+  background-position: bottom;
 }
 .step-img2 {
   height: 150px;
   background-image: url(img/flow02.png);
   background-size: cover;
+  background-position: bottom;
 }
 .step-img3 {
   height: 150px;
   background-image: url(img/flow03.png);
   background-size: cover;
+  background-position: bottom;
 }
 .step-num {
   padding: 3px;
@@ -69,19 +75,17 @@ main {
     margin: 50px auto 20px auto;
   }
   .step-box:nth-child(2) {
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto 20px auto;
   }
   .step-box:last-child {
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto 50px auto;
   }
   .step-img1,
   .step-img2,
   .step-img3 {
     height: 150px;
+    background-size: cover;
+    background-position: bottom;
   }
   .footer {
     margin-top: 50px;
